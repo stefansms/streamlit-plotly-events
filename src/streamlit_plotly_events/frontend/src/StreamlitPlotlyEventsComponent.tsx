@@ -42,6 +42,7 @@ class StreamlitPlotlyEventsComponent extends StreamlitComponentBase {
       clickedPoints.push({
         x: arrayItem.x,
         y: arrayItem.y,
+        color: arrayItem.color,
         curveNumber: arrayItem.curveNumber,
         pointNumber: arrayItem.pointNumber,
         pointIndex: arrayItem.pointIndex
